@@ -1,15 +1,17 @@
 import { User } from "../../../../entities/user";
+import styles from "./styles.module.scss";
 
 export const UsersListItem = (props: User) => {
 	return (
-		<div>
-			<div>{props.avapic}</div>
-
+		<div class={styles.item}>
 			<div>
-				<p>{props.name}</p>
-				<p>last message</p>
+				{props.avapic ? <img class={styles.avapic} src={props.avapic} alt="avapic" loading="lazy" /> : <div class={styles.avapic} />}
 			</div>
 
+			<div class={styles.textBlock}>
+				<p class={styles.name}>{props.name}</p>
+				<p class={styles.lastMessage}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quam!</p>
+			</div>
 		</div>
 	)
 }
