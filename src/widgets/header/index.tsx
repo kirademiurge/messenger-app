@@ -1,10 +1,12 @@
+import { userStore } from "../../entities/user";
+import { config } from "../../shared/config";
 import styles from "./styles.module.scss";
 
 export const Header = () => {
 	return (
 		<header class={styles.header}>
-			<p>app name</p>
-			<div>settings</div>
+			{userStore.avapic ? <img class={styles.avapic} src={userStore.avapic} alt="avapic" loading="lazy" /> : <div class={styles.avapic} />}
+			<p class={styles.projectName}>{userStore.name}</p>
 		</header>
 	)
 }
