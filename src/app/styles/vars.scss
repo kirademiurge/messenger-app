@@ -1,23 +1,35 @@
 :root {
 	// FONTS
-	--font-primary: 'Schibsted Grotesk', sans-serif;
+	--font-family: 'Schibsted Grotesk', sans-serif;
 
+	--font-weight-thin: 100;
+	--font-weight-extraLight: 200;
+	--font-weight-light: 300;
+	--font-weight-regular: 400;
+	--font-weight-medium: 500;
+	--font-weight-semibold: 600;
+	--font-weight-bold: 700;
+	--font-weight-extraBold: 800;
+	--font-weight-black: 900;
+
+	--font-size: 1rem;
+	--font-size-h6: 1.25rem;
+	--font-size-h5: 1.5rem;
+	--font-size-h4: 1.75rem;
+	--font-size-h3: 2rem;
+	--font-size-h2: 2.5rem;
 	--font-size-h1: 3rem;
-	--font-size-h2: 2.25rem;
-	--font-size-h3: 1.5rem;
-	--font-size-h4: 1.25rem;
-	--font-size-p: 1rem;
 
 	// COLORS
-	--background-color: var(--color-white);
-	--text-color-h1: var(--color-black);
-	--text-color-h2: var(--color-black);
-	--text-color-h3: var(--color-black);
-	--text-color-h4: var(--color-black);
-	--text-color-p: var(--color-black);
+	--color-background: var(--color-white);
+	--color-background-secondary: var(--color-neutral-50);
+	--color-text: var(--color-black);
+	--color-text-secondary: var(--color-neutral-500);
+	--color-skeleton: var(--color-neutral-300);
 
 	// OTHERS
 	--border-radius: 1rem;
-	--border-color: something,
-	--border-width: 1px,
+	--border-radius-full: 999px;
+	--border-color: var(--color-neutral-200);
+	--border-width: 1px;
 }
