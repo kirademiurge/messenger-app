@@ -19,5 +19,77 @@ export const [usersListStore, setUsersListStore] = createStore<UsersListStore>({
 			id: "2",
 			name: "LIGHT",
 		},
+		{
+			id: "0",
+			name: "KIRA",
+		},
+		{
+			id: "1",
+			name: "YAGAMI",
+		},
+		{
+			id: "2",
+			name: "LIGHT",
+		},
+		{
+			id: "0",
+			name: "KIRA",
+		},
+		{
+			id: "1",
+			name: "YAGAMI",
+		},
+		{
+			id: "2",
+			name: "LIGHT",
+		},
+		{
+			id: "0",
+			name: "KIRA",
+		},
+		{
+			id: "1",
+			name: "YAGAMI",
+		},
+		{
+			id: "2",
+			name: "LIGHT",
+		},
+		{
+			id: "0",
+			name: "KIRA",
+		},
+		{
+			id: "1",
+			name: "YAGAMI",
+		},
+		{
+			id: "2",
+			name: "LIGHT",
+		},
+		{
+			id: "0",
+			name: "KIRA",
+		},
+		{
+			id: "1",
+			name: "YAGAMI",
+		},
+		{
+			id: "2",
+			name: "LIGHT",
+		},
+		{
+			id: "0",
+			name: "KIRA",
+		},
+		{
+			id: "1",
+			name: "YAGAMI",
+		},
+		{
+			id: "2",
+			name: "LIGHT",
+		},
 	],
 });
