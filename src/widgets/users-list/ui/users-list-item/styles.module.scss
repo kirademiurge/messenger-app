@@ -1,0 +1,31 @@
+.item {
+	border-top: 1px solid var(--border-color);
+	padding: 0.5rem 0.5rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.avapic {
+	$size: 3.25rem;
+	width: $size;
+	height: $size;
+	background-color: var(--color-skeleton);
+	border-radius: var(--border-radius-full);
+}
+
+.textBlock {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+}
+
+.name {
+	font-size: var(--font-size);
+	font-weight: var(--font-weight-semibold);
+}
+
+.lastMessage {
+	font-size: var(--font-size);
+	color: var(--color-text-secondary);
+}
