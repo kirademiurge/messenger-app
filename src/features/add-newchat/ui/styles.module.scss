@@ -1,0 +1,17 @@
+.button {
+	$size: 3.75rem;
+	width: $size;
+	height: $size;
+	border-radius: var(--border-radius-full);
+	border-width: 0;
+	outline: 0;
+	color: var(--color-text-inverted);
+	font-size: var(--font-size-h5);
+	font-weight: var(--font-weight-regular);
+	position: absolute;
+	$posotionSpace: 1rem;
+	bottom: $posotionSpace;
+	right: $posotionSpace;
+	background-color: var(--color-primary-500);
+	user-select: none;
+}
