@@ -11,9 +11,6 @@ export default function PagesWithRouting () {
 			<Route path="/" component={MainPage} />
 			<Route path="/user/:id" component={UserChatPage} />
 			<Route path="/settings" component={SettingsPage} />
-			<Route path="*">
-				<Navigate href="/" />
-			</Route>
 		</Routes>
 	)
 }
