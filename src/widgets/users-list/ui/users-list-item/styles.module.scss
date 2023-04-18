@@ -4,6 +4,7 @@
 	display: flex;
 	align-items: center;
 	gap: 0.5rem;
+	user-select: none;
 }
 
 .avapic {
@@ -23,6 +24,7 @@
 .name {
 	font-size: var(--font-size);
 	font-weight: var(--font-weight-semibold);
+	color: var(--color-text);
 }
 
 .lastMessage {
