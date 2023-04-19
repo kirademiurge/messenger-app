@@ -12,6 +12,7 @@
 	--font-weight-extraBold: 800;
 	--font-weight-black: 900;
 
+	--font-size-small: 0.9rem;
 	--font-size: 1rem;
 	--font-size-h6: 1.25rem;
 	--font-size-h5: 1.5rem;
@@ -22,7 +23,7 @@
 
 	// COLORS
 	--color-background: var(--color-white);
-	--color-background-secondary: var(--color-neutral-50);
+	--color-background-secondary: var(--color-neutral-100);
 
 	--color-text: var(--color-black);
 	--color-text-secondary: var(--color-neutral-500);
@@ -42,7 +43,7 @@
 	--color-primary-900: var(--color-sky-900);
 
 	// OTHERS
-	--border-radius: 1rem;
+	--border-radius: 0.75rem;
 	--border-radius-full: 999px;
 	--border-color: var(--color-neutral-200);
 	--border-width: 1px;
