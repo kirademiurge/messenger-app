@@ -1,4 +1,5 @@
 .chatScreen {
 	background-color: var(--color-background-secondary);
-	flex: 1;
+	height: 100%;
+	overflow-y: scroll;
 }
