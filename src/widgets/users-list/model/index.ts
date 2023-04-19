@@ -2,11 +2,12 @@ import { createStore } from "solid-js/store";
 import { User } from "../../../entities/user";
 
 export interface UsersListStore {
-	usersList: User[],
+	users: User[],
+	findUserByUsername: Function,
 }
 
 export const [usersListStore, setUsersListStore] = createStore<UsersListStore>({
-	usersList: [
+	users: [
 		{
 			id: "0",
 			username: "username0",
@@ -23,4 +24,8 @@ export const [usersListStore, setUsersListStore] = createStore<UsersListStore>({
 			name: "LIGHT",
 		},
 	],
+	findUserByUsername(username: string) {
+		const user = this.users.find( user => user.username === username );
+		return user;
+	},
 });
