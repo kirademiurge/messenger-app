@@ -10,7 +10,7 @@ export const UsersListItem = (props: User) => {
 					{props.avapic ? <img class={styles.avapic} src={props.avapic} alt="avapic" loading="lazy" /> : <div class={styles.avapic} />}
 				</div>
 
-				<div class={styles.textBlock}>
+				<div class={styles.nameBlock}>
 					<p class={styles.name}>{props.name}</p>
 					<p class={styles.lastMessage}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quam!</p>
 				</div>
