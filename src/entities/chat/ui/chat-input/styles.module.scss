@@ -1,0 +1,16 @@
+.chatInput {
+	min-height: 3rem;
+	display: grid;
+	gap: 0.5rem;
+	justify-content: center;
+  align-content: center;
+	text-align: center;
+	padding: 0.5rem;
+	grid-template-columns: 1fr auto;
+	user-select: none;
+}
+
+.sendButton {
+	color: var(--color-primary-600) !important;
+	margin: auto 0;
+}

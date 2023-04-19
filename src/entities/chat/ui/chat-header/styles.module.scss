@@ -1,0 +1,48 @@
+.chatHeader {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.5rem;
+	padding: 0.5rem;
+	height: 3.75rem;
+	user-select: none;
+}
+
+.chatHeaderFirstBlock {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.avapic {
+	$size: 2.75rem;
+	width: $size;
+	height: $size;
+	background-color: var(--color-skeleton);
+	border-radius: var(--border-radius-full);
+}
+
+.nameBlock {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+}
+
+.name {
+	font-size: var(--font-size);
+	font-weight: var(--font-weight-semibold);
+	color: var(--color-text);
+}
+
+.lastOnline {
+	font-size: var(--font-size-small);
+	color: var(--color-text-secondary);
+}
+
+.backButton {
+	color: var(--color-neutral-600) !important;
+}
+
+.moreButton {
+	color: var(--color-neutral-600) !important;
+}
