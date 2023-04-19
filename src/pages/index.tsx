@@ -1,15 +1,15 @@
 import { lazy } from "solid-js";
 import { Routes, Route, Navigate } from "@solidjs/router";
 
-const MainPage = lazy( () => import("./main") );
-const UserChatPage = lazy( () => import("./user-chat") );
+const UsersListPage = lazy( () => import("./users-list") );
+const ChatPage = lazy( () => import("./chat") );
 const SettingsPage = lazy( () => import("./settings") );
 
 export default function PagesWithRouting () {
 	return (
 		<Routes>
-			<Route path="/" component={MainPage} />
-			<Route path="/user/:id" component={UserChatPage} />
+			<Route path="/" component={UsersListPage} />
+			<Route path="/user/:username" component={ChatPage} />
 			<Route path="/settings" component={SettingsPage} />
 		</Routes>
 	)
