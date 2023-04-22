@@ -1,14 +1,13 @@
 import { A } from "@solidjs/router";
 import { User } from "../../../../entities/user";
 import styles from "./styles.module.scss";
+import { Avapic } from "../../../../shared/ui";
 
 export const UsersListItem = (props: User) => {
 	return (
 		<A href={`user/${props.username}`}>
 			<div class={styles.item}>
-				<div>
-					{props.avapic ? <img class={styles.avapic} src={props.avapic} alt="avapic" loading="lazy" /> : <div class={styles.avapic} />}
-				</div>
+				<Avapic size="3.25rem" name={props.name} color={props.color} />
 
 				<div class={styles.nameBlock}>
 					<p class={styles.name}>{props.name}</p>
