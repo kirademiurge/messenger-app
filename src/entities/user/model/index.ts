@@ -5,4 +5,5 @@ export const [userStore, setUserStore] = createStore<User>({
 	id: "",
 	username: "username",
 	name: "name name",
+	color: "purple",
 });
