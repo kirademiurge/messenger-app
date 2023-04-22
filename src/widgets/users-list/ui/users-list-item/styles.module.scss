@@ -1,18 +1,10 @@
 .item {
 	border-top: 1px solid var(--border-color);
 	padding: 0.5rem 0.5rem;
-	display: flex;
-	align-items: center;
+	display: grid;
+	grid-template-columns: auto 1fr;
 	gap: 0.5rem;
 	user-select: none;
-}
-
-.avapic {
-	$size: 3.25rem;
-	width: $size;
-	height: $size;
-	background-color: var(--color-skeleton);
-	border-radius: var(--border-radius-full);
 }
 
 .nameBlock {
