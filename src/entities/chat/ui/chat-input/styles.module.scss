@@ -9,4 +9,7 @@
 .sendButton {
 	color: var(--color-primary-600) !important;
 	margin: auto 0 0.5rem;
+	background-color: transparent;
+	border-width: 0;
+	outline: 0;
 }
