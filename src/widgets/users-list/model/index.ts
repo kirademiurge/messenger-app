@@ -12,16 +12,19 @@ export const [usersListStore, setUsersListStore] = createStore<UsersListStore>({
 			id: "0",
 			username: "username0",
 			name: "KIRA",
+			color: "red",
 		},
 		{
 			id: "1",
 			username: "username1",
 			name: "YAGAMI",
+			color: "orange",
 		},
 		{
 			id: "2",
 			username: "username2",
 			name: "LIGHT",
+			color: "blue",
 		},
 	],
 	findUserByUsername(username: string) {
