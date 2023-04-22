@@ -1,0 +1,28 @@
+.avapic {
+	background-color: var(--color-skeleton);
+	border-radius: var(--border-radius-full);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: var(--font-weight-semibold);
+	color: var(--color-text-inverted);
+}
+
+.red {
+	background: linear-gradient(20deg, var(--color-red-500) 0%, var(--color-red-400) 35%, var(--color-red-300) 100%);
+}
+.orange {
+	background: linear-gradient(20deg, var(--color-orange-500) 0%, var(--color-orange-400) 35%, var(--color-orange-300) 100%);
+}
+.yellow {
+	background: linear-gradient(20deg, var(--color-yellow-500) 0%, var(--color-yellow-400) 35%, var(--color-yellow-300) 100%);
+}
+.green {
+	background: linear-gradient(20deg, var(--color-green-500) 0%, var(--color-green-400) 35%, var(--color-green-300) 100%);
+}
+.blue {
+	background: linear-gradient(20deg, var(--color-blue-500) 0%, var(--color-blue-400) 35%, var(--color-blue-300) 100%);
+}
+.purple {
+	background: linear-gradient(20deg, var(--color-purple-500) 0%, var(--color-purple-400) 35%, var(--color-purple-300) 100%);
+}
