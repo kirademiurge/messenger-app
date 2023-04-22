@@ -3,10 +3,13 @@ import styles from "./styles.module.scss";
 import { A } from "@solidjs/router";
 import { BsThreeDotsVertical } from "solid-icons/bs";
 import { IoArrowBackOutline } from "solid-icons/io";
+import { Avapic } from "../../../../shared/ui";
+import { avapicColor } from "../../../../shared/api";
 
 export interface ChatHeaderProps  {
 	name: string,
 	avapic?: string,
+	color: avapicColor,
 }
 
 export const ChatHeader = (props: ChatHeaderProps) => {
@@ -17,9 +20,7 @@ export const ChatHeader = (props: ChatHeaderProps) => {
 
 			<div class={styles.chatHeaderFirstBlock}>
 				<A href="/"><IoArrowBackOutline size={24} class={styles.backButton} /></A>
-
-				{props.avapic ? <img class={styles.avapic} src={props.avapic} alt="avapic" loading="lazy" /> : <div class={styles.avapic} />}
-
+				<Avapic name={props.name} image={props.avapic} size="2.75rem" color={props.color} />
 				<div class={styles.nameBlock}>
 					<p class={styles.name}>{merged.name}</p>
 					<p class={styles.lastOnline}>last seen recently</p>
