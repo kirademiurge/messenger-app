@@ -13,7 +13,7 @@ export const Chat = (props: ChatProps) => {
 
 	return (
 		<>
-			<ChatHeader name={user.name} avapic={user.avapic} />
+			<ChatHeader name={user.name} avapic={user.avapic} color={user.color} />
 			<ChatScreen />
 			<ChatInput />
 		</>
