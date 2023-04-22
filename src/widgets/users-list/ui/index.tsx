@@ -10,7 +10,7 @@ export const UsersList = () => {
 			<For each={usersListStore.users} fallback={<Loading />}>
 				{
 					(user, index) => (
-						<UsersListItem id={user.id} username={user.username} name={user.name} avapic={user.avapic} />
+						<UsersListItem id={user.id} username={user.username} name={user.name} avapic={user.avapic} color={user.color} />
 					)
 				}
 			</For>
