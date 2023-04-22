@@ -17,6 +17,8 @@ export const Textarea = (props: TextareaProps) => {
 	const onChangeHandler = (event: any) => {
 		setText(event.target.value);
 		if (props.onChange) props.onChange(event);
+		event.target.style.height = "auto";
+		event.target.style.height = `${event.target.scrollHeight}px`;
 	}
 	
 	const onInputHandler = (event: any) => {
