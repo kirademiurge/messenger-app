@@ -14,14 +14,6 @@
 	gap: 0.5rem;
 }
 
-.avapic {
-	$size: 2.75rem;
-	width: $size;
-	height: $size;
-	background-color: var(--color-skeleton);
-	border-radius: var(--border-radius-full);
-}
-
 .nameBlock {
 	display: flex;
 	flex-direction: column;
