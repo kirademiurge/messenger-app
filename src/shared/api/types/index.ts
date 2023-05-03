@@ -1,1 +1,1 @@
-export type avapicColor = "red" | "orange" | "yellow" | "green" | "blue" | "purple";
+export type avapicColor = "red" | "orange" | "yellow" | "green" | "blue" | "purple" | "pink";
