@@ -7,4 +7,5 @@ export interface User {
 	avapic?: string,
 	bio?: string,
 	color: avapicColor,
+	// I HAVE TO ADD EXTRA VALUES
 }
